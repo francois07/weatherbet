@@ -1,0 +1,34 @@
+meta {
+  name: postTransaction
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/api/transactions
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "inputs": [
+      {
+        "TXID": "6c8542fbd35ad570bcfd41fc9befec28f72267320c9d4dbc262d819be165a4a3",
+        "VOUT": 0,
+        "ScriptArgs": {
+          "sign": "WBCoU1TlE08pgUB9ycVDLG7ZCh5E4C9Gm75npCVlKt+MWSx/0dE/pX+ceoGWNJC74KAHTcTOhC+5GLpChMXUCDRmBiSbYIszbhICSWGXbLRIpTSafSsH8kqJsGyusmTc7S6KGrvmgUc//2u9xIHCjSn17bMGOMXPE8SU4afYLovkTdC4KVKOGYcRir+rXTxWNTRtKoO2c1EKn6AJ4wAxo6EcKThMoruzDzTApH1e2btRy559kDlp2/oAuNflat5av0zu3k3PqLkTBKWkxgYunQOFwuLYkr+DP/V7K/oHuPTNVewsiR3vtC7buLNF/xGL8IguqUBSk6aeKowVGD2HLA==",
+          "pubKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFrSWYrN21uNXRTQTZHNTduNzFERQphRUJGUUo1b3RCaUNvWGlFbTBGSUtoUHZncThsNG9SSTRSTjZ4V0xYUS9wUTRpM2RxOFZqMmsrbDBHVTQ4ODlBClFlSWIzRWRvZSsvdzNsQTNzclRUNHNNdVdQMTVqUFVTamlxaWx6ZGtGR0dka014RlNPdlcybFE2ZC9sSkoxUjMKUzlrYWxkNFh4UGJBbHZ4UGZhK1l0dDNmaGRUdnBoRFhnTXBGYzBsOW9hR25vcGtGY0YwRUtobGs4K2RLVmJMSwpPUHJyK0svOStQS0xHdzl0OVh6OWErbFY3QXRMcWtSNjVlUFZROU9tdm1qL3JPSjZ3WWZMUVpkWHZKdTc5ajUvCmVzbGxIRFdHWElXaHgwTUtoMHZJZURqYkt3NUhmWU9YRUMrdEpTS2hBbXFDbThtL2JxRFZJdnZISSs1MGRBMTAKaVFJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+        },
+        "ScriptSigSize": 10
+      }
+    ],
+    "outputs": [
+      {
+        "Value": 30,
+        "Script": ""
+      }
+    ],
+    "locktime": 0
+  }
+}
